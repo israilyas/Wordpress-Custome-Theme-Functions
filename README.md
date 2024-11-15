@@ -85,3 +85,7 @@
 `<?php $logoimage = get_header_image(); ?>`
 *Use in src*
 `src="<?php echo $logoimage;  ?>"`
+
+---
+
+## Custom Page Template
