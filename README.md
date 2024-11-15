@@ -82,5 +82,6 @@
 1. `add_theme_support('custom-header');`
 
 *Use in `header.php` to display the logo:*
-```php
-<?php $logoimage = get_header_image(); ?>
+`<?php $logoimage = get_header_image(); ?>`
+*Use in src*
+`src="<?php echo $logoimage;  ?>"`
